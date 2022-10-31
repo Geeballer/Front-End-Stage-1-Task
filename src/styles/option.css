@@ -1,0 +1,33 @@
+.option{
+    position: absolute;
+    top: 3%;
+    right: 5%;
+    border: 2px dotted rgb(195, 193, 193);
+    border-radius: 50%;
+    padding: 6px 7px;
+    cursor: pointer;
+}
+
+.option > .option__icon{
+    font-size: 1.5rem;
+    color: rgb(195, 193, 193);
+}
+
+.desktop{
+    display: none;
+}
+
+/**************************************************************
+                            Media Quary
+**************************************************************/
+
+@media only screen and (min-width: 768px)  {
+    
+    .mobile{
+        display: none;
+    }
+
+    .desktop{
+        display: block;
+    }
+}

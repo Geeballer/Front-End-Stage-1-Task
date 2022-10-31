@@ -1,0 +1,32 @@
+.profile{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8% 5%;
+    position: relative;
+}
+
+#profile__img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transition: all .3s ease-in-out;
+}
+
+#profile__img:hover{
+    cursor: crosshair;
+    filter: brightness(60%);
+}
+
+/**************************************************************
+                            Media Quary
+**************************************************************/
+
+@media only screen and (min-width: 768px)  {
+    
+    .profile{
+        padding: 3% 5%;
+    }
+}

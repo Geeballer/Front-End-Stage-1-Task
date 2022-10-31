@@ -1,0 +1,21 @@
+.link{
+    text-decoration: none;
+    color: #000;
+    background: rgb(195, 193, 193);
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 1rem 0;
+    border-radius: 5px;
+    transition: all .3s ease-in-out;
+}
+
+.link:hover{
+    transform: scale(.95);
+}
+
+.link:not(:last-child){
+    margin-bottom: 2rem;
+}

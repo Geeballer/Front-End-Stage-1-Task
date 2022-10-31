@@ -1,0 +1,33 @@
+.social{
+    margin: 5rem auto;
+    width: 20%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social__icon{
+    font-size: 2rem;
+    color: #000;
+    transition: all .3s ease-in-out;
+}
+
+.social__icon:hover{
+    transform: translateY(-5px);
+}
+
+/**************************************************************
+                            Media Quary
+**************************************************************/
+
+@media only screen and (min-width: 768px)  {
+    
+    .social{
+        width: 10%;
+    }
+
+    .social__icon{
+        font-size: 2.5rem;
+    }
+}
