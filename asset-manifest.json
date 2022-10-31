@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Geeballer.github.io/Front-End-Stage-1-Task/static/css/main.922dcfe0.css",
-    "main.js": "/Geeballer.github.io/Front-End-Stage-1-Task/static/js/main.13a66b63.js",
-    "static/media/I4G-Logo.png": "/Geeballer.github.io/Front-End-Stage-1-Task/static/media/I4G-Logo.8cde01edc439e1ee599b.png",
-    "static/media/user.jpg": "/Geeballer.github.io/Front-End-Stage-1-Task/static/media/user.6c95f1de0af8cba56fd3.jpg",
-    "static/media/zuri-Logo.jpeg": "/Geeballer.github.io/Front-End-Stage-1-Task/static/media/zuri-Logo.7bf9c95ed313935086f8.jpeg",
-    "index.html": "/Geeballer.github.io/Front-End-Stage-1-Task/index.html",
-    "main.922dcfe0.css.map": "/Geeballer.github.io/Front-End-Stage-1-Task/static/css/main.922dcfe0.css.map",
-    "main.13a66b63.js.map": "/Geeballer.github.io/Front-End-Stage-1-Task/static/js/main.13a66b63.js.map"
+    "main.css": "/Front-End-Stage-1-Task/static/css/main.922dcfe0.css",
+    "main.js": "/Front-End-Stage-1-Task/static/js/main.61bddb65.js",
+    "static/media/I4G-Logo.png": "/Front-End-Stage-1-Task/static/media/I4G-Logo.8cde01edc439e1ee599b.png",
+    "static/media/user.jpg": "/Front-End-Stage-1-Task/static/media/user.6c95f1de0af8cba56fd3.jpg",
+    "static/media/zuri-Logo.jpeg": "/Front-End-Stage-1-Task/static/media/zuri-Logo.7bf9c95ed313935086f8.jpeg",
+    "index.html": "/Front-End-Stage-1-Task/index.html",
+    "main.922dcfe0.css.map": "/Front-End-Stage-1-Task/static/css/main.922dcfe0.css.map",
+    "main.61bddb65.js.map": "/Front-End-Stage-1-Task/static/js/main.61bddb65.js.map"
   },
   "entrypoints": [
     "static/css/main.922dcfe0.css",
-    "static/js/main.13a66b63.js"
+    "static/js/main.61bddb65.js"
   ]
 }
