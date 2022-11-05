@@ -1,0 +1,26 @@
+@import './styles/reset';
+@import './styles/variable';
+@import './styles/profile';
+@import './styles/option';
+@import './styles/user';
+@import './styles/link';
+@import './styles/link-section';
+@import './styles/social';
+@import './styles/contact';
+@import './styles/form';
+@import './styles/footer';
+
+.App{
+    padding: 10% 5%;
+}
+
+/**************************************************************
+                            Media Quary
+**************************************************************/
+
+@media only screen and (min-width: 768px)  {
+    
+    .App{
+        padding: 5%;
+    }
+}

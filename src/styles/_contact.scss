@@ -1,0 +1,27 @@
+.contact{
+    width: 100%;
+    height: auto;
+    margin-bottom: 5rem;
+
+    &__header{
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+    }
+
+    &__text{
+        font-size: 1.5rem;
+        margin-bottom: 3rem;
+    }
+}
+
+/**************************************************************
+                            Media Quary
+**************************************************************/
+
+@media only screen and (min-width: 768px)  {
+    
+    .contact{
+        width: 70%;
+        margin: 0 auto 5rem auto;
+    }
+}

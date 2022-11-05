@@ -7,7 +7,7 @@ const LinkSection = () => {
     <div className="link--section">
         <Link 
             linkName = {'Twitter Link'}
-            linkSource = {'https://twitter.com/Geeballer'}
+            linkSource = {'https://twitter.com/cascadingGeek'}
         />
         <Link 
             linkName = {'Zuri Team'}

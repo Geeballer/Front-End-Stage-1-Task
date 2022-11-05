@@ -4,7 +4,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 8% 5%;
     position: relative;
 }
 
@@ -13,11 +12,11 @@
     height: 100%;
     border-radius: 50%;
     transition: all .3s ease-in-out;
-}
 
-#profile__img:hover{
-    cursor: crosshair;
-    filter: brightness(60%);
+    &:hover{
+        cursor: crosshair;
+        filter: brightness(60%);
+    }
 }
 
 /**************************************************************

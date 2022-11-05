@@ -1,0 +1,27 @@
+$basic-color: rgb(195, 193, 193);
+$primary-color: #000;
+$secondary-color: #fff;
+$error-color: orangered;
+$valid-color: yellowgreen;
+
+
+@mixin flexStart($direction) {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: $direction;
+}
+
+@mixin flexCenter($direction) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+@mixin imageFit($size) {
+    object-fit: $size;
+    object-position: center;
+    -o-object-fit: $size;
+    -o-object-position: center;
+}

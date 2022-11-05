@@ -1,0 +1,45 @@
+.footer{
+    width: 100%;
+    height: auto;
+    @include flexStart(column);
+
+        & > hr{
+            margin: 2rem 0;
+            width: 100%;
+            border-color: $basic-color;
+        }
+
+        &__logo{
+            width: 100%;
+            @include flexStart(column);
+        
+            &--text{
+                font-size: 1.5rem;
+                margin-bottom: 3rem;
+                color: $basic-color;
+            }
+
+            &--figure{
+                width: 15rem;
+                height: auto;   
+                
+                &--img{
+                    width: 100%;
+                    height: 100%;
+                    @include imageFit(cover);
+                }
+            }
+        }
+
+}
+
+/**************************************************************
+                            Media Quary
+**************************************************************/
+
+@media only screen and (min-width: 768px)  {
+    
+    .footer__logo{
+        @include flexCenter(row);
+    }
+}

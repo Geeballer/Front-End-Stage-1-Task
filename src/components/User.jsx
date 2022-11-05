@@ -8,7 +8,7 @@ const User = () => {
         <figure className='user__figure'>
             <img id="profile__img" src={UserFigure} alt="User"/>
         </figure>
-        <p id="twitter">Geeballer</p>
+        <p id="twitter">cascadingGeek</p>
         <p id="slack" style={{display: 'none'}}>jayBee</p>
     </div>
   )

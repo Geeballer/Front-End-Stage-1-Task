@@ -1,16 +1,16 @@
 .option{
     position: absolute;
-    top: 3%;
+    top: 0;
     right: 5%;
     border: 2px dotted rgb(195, 193, 193);
     border-radius: 50%;
     padding: 6px 7px;
     cursor: pointer;
-}
 
-.option > .option__icon{
-    font-size: 1.5rem;
-    color: rgb(195, 193, 193);
+    &__icon{
+        font-size: 1.5rem;
+        color: rgb(195, 193, 193);
+    }
 }
 
 .desktop{
@@ -22,6 +22,10 @@
 **************************************************************/
 
 @media only screen and (min-width: 768px)  {
+
+    .option{
+        top: 2%;
+    }
     
     .mobile{
         display: none;

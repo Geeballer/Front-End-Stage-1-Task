@@ -1,4 +1,3 @@
-import Footer from "../components/Footer"
 import LinkSection from "../components/LinkSection"
 import User from "../components/User"
 import Option from '../components/Option'
@@ -11,7 +10,6 @@ const profile = () => {
         <Option />
         <LinkSection />
         <Social />
-        <Footer />
     </div>
   )
 }

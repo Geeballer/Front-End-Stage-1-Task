@@ -5,16 +5,16 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 2rem;
-}
 
-.user > .user__figure{
-    width: 10rem;
-    height: 10rem;
-    object-fit: cover;
-    object-position: center;
-    -o-object-fit: cover;
-    -o-object-position: center;
-    margin-bottom: 5%;
+    &__figure{
+        width: 10rem;
+        height: 10rem;
+        object-fit: cover;
+        object-position: center;
+        -o-object-fit: cover;
+        -o-object-position: center;
+        margin-bottom: 5%;
+    }
 }
 
 #twitter {
@@ -30,9 +30,9 @@
     
     .user{
         margin-bottom: 3rem;
-    }
-
-    .user > .user__figure{
-        margin-bottom: 2rem;
+    
+        &__figure{
+            margin-bottom: 2rem;
+        }
     }
 }
