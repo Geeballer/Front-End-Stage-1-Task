@@ -9,7 +9,7 @@ const Social = () => {
           <a href="https://training.zuri.team/"> <FaSlack className='social__icon'/> </a>
           <a href="https://github.com/Geeballer"> <FaGithub className='social__icon'/> </a>
         </div>
-        <Link to='/contact' id='contact'> Contact Me </Link>
+        <Link to='/Front-End-Stage-1-Task/contact' id='contact'> Contact Me </Link>
     </div>
     
   )

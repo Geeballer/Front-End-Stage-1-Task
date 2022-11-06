@@ -29,7 +29,7 @@ const Form = () => {
           <input type="text" value={values.first_name} onChange={handleChange} onBlur={handleBlur} id='first_name' placeholder='Enter your first name' className={errors.first_name ? 'input__error' : 'input__valid'}/>
           {errors.first_name && <span className='error__text'>{errors.first_name}</span>}  
         </div>
-        <div className="form__field">
+        <div className="form__field pad__left">
           <label htmlFor="last_name">Last name</label>  
           <input type="text" value={values.last_name} onChange={handleChange} onBlur={handleBlur} id='last_name' placeholder='Enter your last name' className={errors.last_name ? 'input__error' : 'input__valid'}/>
           {errors.last_name && <span className='error__text'>{errors.last_name}</span>}

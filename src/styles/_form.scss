@@ -2,6 +2,10 @@
     width: 100%;
     height: auto;
 
+    &__col--two{
+        @include flexStart(column);
+    }
+
     &__field{
         @include flexStart(column);
         margin-bottom: 2rem;
@@ -81,6 +85,29 @@
 
         &:disabled{
             opacity: 0.4;
+        }
+    }
+}
+
+
+/**************************************************************
+                            Media Quary
+**************************************************************/
+
+@media only screen and (min-width: 768px)  {
+
+    .form__col--two{
+        @include flexStart(row);
+
+        .form__field{
+            
+            input[type=text]{
+                width: 100%;
+            }   
+        }
+
+        .pad__left{
+            padding-left: 5%;
         }
     }
 }
